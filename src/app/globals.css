@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --bg-1: rgba(41, 47, 54, 1);
   --bg-2: rgba(26, 30, 35, 1);

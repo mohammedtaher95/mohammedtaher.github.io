@@ -66,7 +66,7 @@ function Header() {
                     fill="#2D3648"
                   />
                 </svg>
-                <div class="menu-item">Instagram</div>
+                <div class="menu-item-2">Instagram</div>
               </div>
               <div class="div">
                 <svg
@@ -97,7 +97,7 @@ function Header() {
                   />
                 </svg>
                 <a
-                  class="menu-item"
+                  class="menu-item-2"
                   href="https://www.linkedin.com/in/mohtaher-95/"
                 >
                   LinkedIn
@@ -116,7 +116,7 @@ function Header() {
                     fill="black"
                   />
                 </svg>
-                <a href="https://github.com/mohammedtaher95/" class="menu-item">
+                <a href="https://github.com/mohammedtaher95/" class="menu-item-2">
                   Github
                 </a>
               </div>
