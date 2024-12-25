@@ -77,8 +77,9 @@
   
     .hero .info {
       align-items: center;
+      align-content: center;
     }
-    
+
   }
   
   @media screen and (max-width: 1280px) { 
@@ -192,7 +193,7 @@
     border-radius: 64px;
     border: 3px solid;
     border-color: var(--brand-1);
-    background-image: url('/src/assets/img/profile-photo.svg');
+    background-image: url('/src/assets/img/profileM.svg');
     background-size: cover;
     background-position: 50% 50%;
   }

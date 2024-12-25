@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 64px 0px;
+    padding: 20px 0px;
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -147,8 +147,10 @@
     height: 20px;
   }
   
-  .header .icon-search {
+  .header .icon-search .svg .path {
     position: relative;
+    fill: var(--bg-2);
+    color: var(--bg-2);
     height: 20px;
   }
   
@@ -160,8 +162,7 @@
     left: 2px;
   }
   
-  svg path {
-    /* background-image: url(./img/icon-instagram.svg); */
+  /* svg path {
     background-size: 100% 100%;
     color: var(--brand-1);
     background-color: var(--white);
@@ -169,7 +170,7 @@
     position: relative;
     width: 20px;
     height: 20px;
-  }
+  } */
   
   .header .text-wrapper-3 {
     position: relative;
@@ -221,10 +222,6 @@
       padding: 0px 64px;
     }
   
-    .header .container {
-      padding: 32px 0px;
-    }
-  
     .header .div-2 {
       gap: 32px;
     }
@@ -243,10 +240,6 @@
       padding: 0px 64px;
     }
   
-    .header .container {
-      padding: 32px 0px;
-    }
-  
     .header .div-2 {
       gap: 32px;
     }
@@ -256,7 +249,7 @@
     }
   
     .header .search {
-      padding: 6px 16px 6px 100px;
+      display: none;
     }
 
     .header .menu-item-2 {
