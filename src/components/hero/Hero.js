@@ -13,7 +13,7 @@ function Hero() {
             <div class="div">
               <div class="photo-name">
                 <div class="profile-photo">
-                  <img src="src/assets/img/profileM.svg" />
+                  <img src="./src/assets/img/profileM.svg" />
                 </div>
                 <div class="name">
                   <div class="text-wrapper">Mohammed</div>
